@@ -4,8 +4,9 @@ import { Icon } from './components/Icons.jsx'
 import About from './sections/About.jsx'
 import Experience from './sections/Experience.jsx'
 import Projects from './sections/Projects.jsx'
+import Publications from './sections/Publications.jsx'
 
-const sections = ['about', 'experience', 'projects']
+const sections = ['about', 'experience', 'projects', 'publications']
 
 export default function App() {
   const [active, setActive] = useState('about')
@@ -82,6 +83,7 @@ export default function App() {
           <About />
           <Experience />
           <Projects />
+          <Publications />
 
           <footer className="footer">
             <p>
