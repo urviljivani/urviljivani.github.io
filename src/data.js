@@ -45,6 +45,14 @@ export const experience = [
     description: 'Tuned PyTorch sleep-staging models for robustness to noisy data (86% best accuracy) and designed the architecture of FASCIA, a platform for collecting sleep data at 4M data points per session. Co-authored the IEEE EMBC 2023 paper.',
     tags: ['PyTorch', 'Deep Learning', 'MQTT', 'EEG'],
   },
+  {
+    title: 'Teaching Assistant',
+    company: 'BITS Pilani, Goa Campus',
+    url: 'https://www.bits-pilani.ac.in/goa/',
+    period: '2018 — 2021',
+    description: 'Designed quizzes, assignments, and labs for AI, OOP, DSA, and Computer Programming courses, and mentored undergraduate students.',
+    tags: ['AI', 'Data Structures', 'Mentoring'],
+  },
 ]
 
 export const publications = [
